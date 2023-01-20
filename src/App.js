@@ -1,10 +1,14 @@
 import React from 'react';
 import Router from './Router';
 import './App.css';
+import Navigation from './Components/Navigation';
 
 function App() {
   return (
-    <Router />
+    <div>
+      <Navigation />
+      <Router />
+    </div>
   );
 }
 

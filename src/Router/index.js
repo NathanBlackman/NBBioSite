@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from 'react-router-dom';
 import About from "../Views/About";
 import Home from "../Views/Home";
-import ProjectView from "../Views/ProjectView";
+//import ProjectView from "../Views/ProjectView";
 import Projects from "../Views/Projects";
 
 export default function Router() {
