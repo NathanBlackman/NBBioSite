@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ProjectCard {
+  width: 550px;
+  border: 3px lightgrey;
+  border-style: solid;
+  border-radius: 8px;
+  margin: 50px;
+}
+
+.CardTitle {
+  padding: 15px;
+}
+
+.card-project-name:hover {
+  color: grey;
+}
+
+.CardImg {
+  width: 544px;
+  height: auto;
+  border: 5px lightgrey;
+  border-style: solid;
+}
+
+.CardImg:hover {
+  filter: blur(2px);
+}
+
+.CardTech {
+  height: 150px;
+  padding: 10px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}

@@ -4,6 +4,7 @@ import About from "../Views/About";
 import Home from "../Views/Home";
 //import ProjectView from "../Views/ProjectView";
 import Projects from "../Views/Projects";
+import ProjectView from "../Views/ProjectView";
 
 export default function Router() {
     
@@ -14,6 +15,7 @@ export default function Router() {
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/about" element={<About />} />
                 <Route exact path="/projects" element={<Projects />} />
+                <Route exact path="/project-view" element={<ProjectView />} />
             </Routes>
         </div>
     )

@@ -20,8 +20,11 @@ export default function About() {
                 src={NBPicture}
             />
             <p className="AboutDescription">Nathan is a recent graduate of the Nashville Software School. Prefering a job in front end development but educated in both back end development and full stack.</p>
-            <a href="https://github.com/NathanBlackman">Github</a>
-            <a href="https://www.linkedin.com/in/nathan-blackman-979344200/">LinkedIn</a>
+            <div className='aboutLinks'>
+                <a href="https://github.com/NathanBlackman">Github</a>
+                <a href="https://www.linkedin.com/in/nathan-blackman-979344200/">LinkedIn</a>
+            </div>
+            
             
 
         </div>
