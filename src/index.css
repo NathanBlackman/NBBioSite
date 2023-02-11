@@ -21,6 +21,11 @@ code {
   border: 3px lightgrey;
   border-style: solid;
   border-radius: 8px;
+  transition: transform .5s;
+}
+
+.ProjectCard:hover {
+  transform: scale(1.05);
 }
 
 .CardTitle {
@@ -38,13 +43,34 @@ code {
   border-style: solid;
 }
 
-.CardImg:hover {
-  filter: blur(2px);
-}
-
 .CardTech {
   height: 150px;
   padding: 10px;
   padding-top: 20px;
   margin-bottom: 15px;
+}
+
+.AboutPic {
+  height: 500px;
+  border-radius: 20px;
+  border: 10px lightblue;
+  border-style: solid;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.AboutDescription {
+  font-size: xx-large;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.AboutPicNDesc {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: aquamarine;
 }
